@@ -1,0 +1,11 @@
+*.pid
+*.pyc
+*~
+.DS_Store
+/bin
+/include
+/lib
+.pydevproject
+.project
+.Python
+.env

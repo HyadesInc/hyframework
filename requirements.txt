@@ -1,0 +1,5 @@
+Django
+South
+mysql-python
+django-grappelli
+twisted-web

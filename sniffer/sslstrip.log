@@ -1,0 +1,25 @@
+2013-11-04 02:42:38,285 POST Data (177.16.1.72):
+{"criteria": [{
+"correlationId": "0",
+"dataRef": ["tracked","epgcs","programs","withinDay"],
+"version":1383454719791
+},{
+"correlationId": "1",
+"dataRef": ["untracked","bcrcb","subscriber","TV-SPO-8145P4VVG-050"],
+"version":0
+},{
+"correlationId": "2",
+"dataRef": ["untracked","bandwidth","running","conflict","subscriber","TV-SPO-8145P4VVG-050"],
+"version":0
+},{
+"correlationId": "3",
+"dataRef": ["untracked","bandwidth","running","conflict","resolvable","equipment","2C:E4:12:1E:20:8A"],
+"version":0
+},{
+"correlationId": "4",
+"dataRef": ["untracked","pvrapp","pvrmasteruser","masterrecordingsperequipment","2C:E4:12:1E:20:8A"],
+"version":0
+}],"timeSinceSync":10,
+"immediateResponse":false,
+"equipmentId":"2C:E4:12:1E:20:8A"
+}

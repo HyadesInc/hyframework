@@ -1,0 +1,19 @@
+{% extends "hyframework/hybase.html" %}
+
+{% block title %}List of credentials{% endblock %}
+
+{% load boolean %}
+
+{% block content %}
+<div id="content-main">
+	<h1>List of credentials:</h1>
+	{% for status in status_list %}
+	<ul>
+		<li><div class={{status.name}}>{{ status.name }} - <a href="{% url 'status.views.change_status' status.name status.status|not_value %}"> {{status.status|yesno:"Running,Not Running" }} </a></div>
+		</li>
+	</ul>
+
+
+	{% endfor %}
+</div>
+{% endblock %}
